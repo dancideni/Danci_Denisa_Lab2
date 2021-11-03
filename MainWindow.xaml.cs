@@ -59,7 +59,7 @@ namespace Danci_Denisa_Lab2
 
         private void frmMain_Loaded(object sender, RoutedEventArgs e)
         {
-            DoughnutMachine myDoughnutMachine = new DoughnutMachine();
+            myDoughnutMachine = new DoughnutMachine();
             myDoughnutMachine.DoughnutComplete += new
             DoughnutMachine.DoughnutCompleteDelegate(DoughnutCompleteHandler);
 
